@@ -79,5 +79,40 @@
         <mj-spacer height="10px"/>
       </mj-column>
     </mj-section>
+    <mj-section background-color="#944694">
+      <mj-column width="265px">
+        <mj-text padding-top="0" padding-bottom="0" font-size="16px" font-weight="900" color="#FFFFFF" css-class="m-footer1">
+          <div class="m-footer">ECOSUP CAMPUS</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" color="#FFFFFF" css-class="m-footer1">
+          <div class="m-footer">17 Place Charles et Albert Roussel,</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" css-class="m-footer1">
+          <div class="m-footer">59200 TOURCOING</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" css-class="m-footer1">
+          <div class="m-footer">03.20.70.06.06</div>
+        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-adress" css-class="m-footer1">
+          <div class="m-footer">contact@ecosup-campus.fr</div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="265px">
+        <mj-social padding-top="0" padding-bottom="0" align="right" icon-size="35px" mode="horizontal" css-class="m-footer2">
+          <mj-social-element background-color="#684092" name="facebook" href="https://www.facebook.com/EcosupAssurance"></mj-social-element>
+          <mj-social-element background-color="#684092" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
+          <mj-social-element background-color="#684092" name="youtube" href="https://www.youtube.com/@EcoSupAssurance"></mj-social-element>
+          <mj-social-element background-color="#684092" name="linkedin" href="https://fr.linkedin.com/company/ecosup-campus"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="250px">
+        <mj-text padding="0 30px" mj-class="d-admin">Cet email a été envoyé à {{contact.EMAIL}}, vous l'avez reçu car vous êtes inscrit à Ecosup Campus.</mj-text>
+        <mj-text padding="0 30px" mj-class="d-admin"><a href="{{ unsubscribe }}">Se désinscrire</a></mj-text>
+        <mj-spacer height="20px"/>
+        <mj-text padding="0 30px" mj-class="d-admin">©2024 ECOSUP CAMPUS</mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
